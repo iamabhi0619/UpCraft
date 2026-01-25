@@ -54,7 +54,7 @@ UpCraft/
 | Member                     | Role                      | Responsibilities                                                                                     |
 | -------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
 | **Team Lead - Rimmi**      | Authentication & Profile  | Build user signup/login, JWT auth, profile update system (backend) and related frontend forms/pages. |
-| **Teammate 2 - Shriparna** | Courses Module            | Manage course & lesson creation, enrollment, and course display frontend.                            |
+| **Teammate 2 - Shriparna** | Courses Module & Admin    | Built admin dashboards for course and lesson creation and developed the course enrollment and display frontend.|
 | **Teammate 3 - Ananya**    | Quiz & Certificate Module | Handle quizzes, results evaluation, and digital certificate generation with frontend integration.    |
 
 All three members will contribute equally to **frontend** and **backend**, as the project is evaluated in both subjects.
