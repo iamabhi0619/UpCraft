@@ -26,7 +26,7 @@ export default function Login() {
     try {
       if (activeTab === "student") {
         // Student login
-        const res = await api.post("/login", { email, password });
+        const res = await api.post("/users/login", { email, password });
         authLogin(res.data.accessToken, res.data.user);
         navigate("/courses", { replace: true });
       } else {
