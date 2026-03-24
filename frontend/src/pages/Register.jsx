@@ -17,7 +17,7 @@ export default function Register() {
 
     try {
       // Student Register only
-      await api.post("/register", {
+      await api.post("/users/register", {
         username,
         email,
         password,
