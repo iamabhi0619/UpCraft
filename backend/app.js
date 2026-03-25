@@ -11,12 +11,21 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 
-app.use(
-  cors({
-    origin: true,
-    credentials: true,
-  })
-);
+if (process.env.NODE_ENV === "production") {
+  app.use(
+    cors({
+      origin: "https://upcraft-site.vercel.app",
+      credentials: true,
+    }),
+  );
+} else {
+  app.use(
+    cors({
+      origin: true,
+      credentials: true,
+    }),
+  );
+}
 
 app.use("/api/v1", router);
 
