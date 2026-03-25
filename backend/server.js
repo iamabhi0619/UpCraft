@@ -33,7 +33,8 @@ app.use(cors({
         'http://localhost:5174',
         'http://localhost:5175',
         'http://localhost:5176',
-        'https://upcraft-flame.vercel.app'
+        'https://upcraft-flame.vercel.app',
+        'https://upcraft-site.vercel.app'
     ],
     credentials: true
 }));
